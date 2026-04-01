@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "NovaCode AI",
+    "description": "Next-generation autocomplete for modern web frameworks.\nBoost your deployment speed by up to 40% using neural suggestions.",
+    "price": "19 (monthly)",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Real-time JS/Python debugging",
+      "Tailwind CSS IntelliSense",
+      "Git integration"
+    ],
+    "icon": "fa-solid fa-code"
+  },
+  {
+    "id": 2,
+    "title": "PixelDraft",
+    "description": "Transform wireframes into high-fidelity UI components instantly.\nExport clean React and Vue code with a single click.",
+    "price": "49 (one-time)",
+    "tag": "Best Seller",
+    "tagType": "best seller",
+    "features": [
+      "Drag-and-drop editor",
+      "Responsive design testing",
+      "Figma file import"
+    ],
+    "icon": "fa-solid fa-wand-magic-sparkles"
+  },
+  {
+    "id": 3,
+    "title": "Lumina Analytics",
+    "description": "Deep-dive data visualization for marketing teams.\nPredict customer churn using advanced machine learning models.",
+    "price": "120 (yearly)",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "Custom Dashboard API",
+      "Automated PDF reporting",
+      "Slack notifications"
+    ],
+    "icon": "fa-solid fa-chart-line"
+  },
+  {
+    "id": 4,
+    "title": "ContentFlow",
+    "description": "SEO-optimized copy generation for blogs and ads.\nMaintain consistent brand voice across all social channels.",
+    "price": "25 (monthly)",
+    "tag": "Trending",
+    "tagType": "popular",
+    "features": [
+      "Plagiarism checker",
+      "Multi-language support",
+      "Keyword density tool"
+    ],
+    "icon": "fa-solid fa-pen-nib"
+  },
+  {
+    "id": 5,
+    "title": "SecureShield",
+    "description": "Automated vulnerability scanning for cloud infrastructure.\nStay compliant with SOC2 and GDPR standards effortlessly.",
+    "price": "299 (yearly)",
+    "tag": "Top Rated",
+    "tagType": "best seller",
+    "features": [
+      "24/7 threat monitoring",
+      "One-click audit logs",
+      "End-to-end encryption"
+    ],
+    "icon": "fa-solid fa-shield-halved"
+  },
+  {
+    "id": 6,
+    "title": "EchoVoice AI",
+    "description": "Realistic studio-quality voiceovers in seconds.\nClone your own voice for personalized customer interactions.",
+    "price": "15 (monthly)",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "50+ natural languages",
+      "Emotion & tone control",
+      "Commercial usage rights"
+    ],
+    "icon": "fa-solid fa-microphone-lines"
+  }
+]
