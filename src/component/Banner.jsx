@@ -24,7 +24,7 @@ const Banner = () => {
 
           <div className="flex flex-wrap gap-4 pt-4">
             <button className="btn bg-gradient-to-br from-[#4F39F6] to-[#fa14df] rounded-full text-white">Explore Products</button>
-            <button className="btn bg-[#ff000000] border-purple-900 rounded-full text-purple-800 hover:bg-gradient-to-br from-[#4F39F6] to-[#fa14df] hover:text-white">Watch Demo</button>
+            <button className="btn bg-[#ff000000] border-purple-900 rounded-full text-purple-800 hover:bg-gradient-to-br from-[#4F39F6] to-[#fa14df] hover:text-white"> <img src="" alt="" /> Watch Demo</button>
           </div>
         </div>
 
@@ -34,7 +34,7 @@ const Banner = () => {
             <img
               className="relative h-130 w-auto object-contain drop-shadow-2xl rounded-3xl animate-pulse"
               src={BannerImage}
-              alt="AI Models Banner"
+              alt=""
             />
           </div>
         </div>
