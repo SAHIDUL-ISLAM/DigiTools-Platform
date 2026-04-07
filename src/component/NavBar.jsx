@@ -26,7 +26,7 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar gap-5">
-        <i class="fa-solid fa-cart-arrow-down"></i>
+        <i className="fa-solid fa-cart-arrow-down"></i>
         <a href="#">Login</a>
         <a className="btn bg-gradient-to-br from-[#4F39F6] to-[#fa14df] rounded-full text-white">Get in Touch</a>
       </div>
