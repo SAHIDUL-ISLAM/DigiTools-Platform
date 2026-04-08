@@ -19,7 +19,7 @@ const ModelCard = ({model, carts, setCarts}) => {
                         <div className="space-y-5">
                             <h2 className="text-3xl font-bold">{model.title}</h2>
                             <p className="text-slate-500 leading-relaxed line-clamp-2">{model.description}</p>
-                            <h3 className="text-[20px] font-bold">${model.price}</h3>
+                            <h3 className="text-[20px] font-bold">${model.price}<span className="text-slate-500">{model.tagType}</span>    </h3>
                             <ul className="space-y-3">
                                 <li className="flex items-center gap-3 text-slate-600">
                                 <i className="fa-solid fa-check text-green-500"></i>

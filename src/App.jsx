@@ -28,7 +28,7 @@ const [carts, setCarts]= useState([])
       </div>
     {activeTab==="model" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}/>}
         
-     {activeTab === "cart" && <Cart carts={carts}/>}
+     {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}/>}
     </>
   )
 }
