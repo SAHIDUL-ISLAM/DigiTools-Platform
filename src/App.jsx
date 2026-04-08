@@ -19,7 +19,7 @@ const [carts, setCarts]= useState([])
     <>
     <NavBar/>
     <Banner/>
-      <div className="flex justify-center">
+      <div className="flex justify-center mb-8">
         <div className="tabs tabs-box border rounded-full p-1 inline-block">
           <input type="radio" name="my_tabs_1" className="tab mx-1 w-40 rounded-full " aria-label="Products" defaultChecked onClick={()=>setActiveTab("model")}/>
 

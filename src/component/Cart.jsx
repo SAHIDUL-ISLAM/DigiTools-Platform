@@ -5,13 +5,20 @@ const Cart = ({carts, setCarts}) => {
     const handlePayment = () => {
         setCarts([]);
     }
+    const handleDelete = (item)=> {
+        const filterdArray = carts.filter(c => c.id !== item.id)
+        setCarts(filterdArray)
+    }
 
     
     return (
-        <div className="min-h-screen  flex items-center justify-center p-4">
+        <div className="flex items-center justify-center pb-4 px-4 my-8">
             <div className="card w-full max-w-2xl bg-white shadow-sm border border-gray-100 p-8 rounded-2xl">
                 <h2 className="text-2xl font-bold text-slate-800 mb-6">Your Cart</h2>
                 {
+                    carts.length ===0 ? <h2 className="text-center text-3xl">Cart is Empty</h2>: 
+                    <>
+                                    {
                 carts.map( item=>
                     <div key={item.id}>
                         <div className="">
@@ -28,7 +35,7 @@ const Cart = ({carts, setCarts}) => {
                                     <p className="text-slate-400 text-sm">${item.price}</p>
                                 </div>
                                 </div>
-                                <button className="btn btn-ghost btn-sm text-secondary normal-case hover:bg-transparent">Remove</button>
+                                <button onClick={()=> handleDelete(item)} className="btn btn-ghost btn-sm text-secondary normal-case hover:bg-transparent">Remove</button>
                             </div>
 
                             </div>
@@ -44,6 +51,9 @@ const Cart = ({carts, setCarts}) => {
                 </div>
 
                 <button onClick={handlePayment} className="btn btn-primary w-full rounded-full border-none bg-[#7C2DFF] hover:bg-[#6b21eb] text-white normal-case text-lg h-14">Proceed To Checkout</button>
+                    </>
+                }
+
             </div>
         </div>
     );
