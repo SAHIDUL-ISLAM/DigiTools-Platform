@@ -1,9 +1,17 @@
-import React from 'react';
 
-const Cart = () => {
+const Cart = ({carts}) => {
+    console.log(carts)
     return (
         <div>
-            cart
+            <div className="className">
+                {
+                carts.map( item=>
+                    <div className="bg-amber-200" key={item.id}>
+                        {item.title}
+                    </div>
+                )
+                }
+            </div>
         </div>
     );
 };

@@ -1,9 +1,9 @@
-import { use, useState, activeTab } from "react";
+import { use, useState } from "react";
 import ModelCard from "./ModelCard";
 
 
 
-const Models = ({modelPromise}) => {
+const Models = ({modelPromise, carts, setCarts}) => {
     const models = use(modelPromise)
 
     return (
@@ -17,7 +17,7 @@ const Models = ({modelPromise}) => {
 
             <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {models.map((model)=> 
-                        <ModelCard key={model.id} model = {model}/>
+                        <ModelCard key={model.id} model = {model} carts={carts} setCarts={setCarts}/>
                     )}
             </div>
         </div>

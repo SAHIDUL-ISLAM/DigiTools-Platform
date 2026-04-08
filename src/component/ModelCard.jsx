@@ -1,11 +1,13 @@
 import { useState } from "react";
 
 
-const ModelCard = ({model}) => {
+
+const ModelCard = ({model, carts, setCarts}) => {
         const [isBuye, setIsBuye]= useState(false)
 
         const handleBuying = ()=>{
             setIsBuye(true)
+            setCarts([...carts,model])
         }
 
     return (
@@ -33,7 +35,7 @@ const ModelCard = ({model}) => {
                                 </li>
                             </ul>
                         </div>
-                        <button onClick={handleBuying} className="btn bg-gradient-to-br from-[#4F39F6] to-[#fa14df] rounded-full text-white w-full">{isBuye?"Bought":"Buye Now"}</button>
+                        <button onClick={handleBuying} className="btn bg-gradient-to-br from-[#4F39F6] to-[#fa14df] rounded-full text-white w-full">{isBuye?"Bought":"Buy Now"}</button>
                     </div>
     );
 };
