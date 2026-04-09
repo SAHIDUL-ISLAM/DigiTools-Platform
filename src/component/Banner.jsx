@@ -8,7 +8,7 @@ const Banner = () => {
         {/* Left Content */}
         <div className="space-y-4">
           <div className="inline-flex items-center gap-2 bg-gray-500/10 border text-purple-700 text-sm font-medium px-5 py-2 rounded-full">
-             New: AI-Powered Tools Available
+             <span className="bg-purple-700 rounded-full"></span> New: AI-Powered Tools Available
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter">
