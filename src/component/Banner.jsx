@@ -8,7 +8,7 @@ const Banner = () => {
         {/* Left Content */}
         <div className="space-y-4">
           <div className="inline-flex items-center gap-2 bg-gray-500/10 border text-purple-700 text-sm font-medium px-5 py-2 rounded-full">
-             <span className="bg-purple-700 rounded-full"></span> New: AI-Powered Tools Available
+             <i class="fa-solid fa-circle"></i> New: AI-Powered Tools Available
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tighter">
@@ -24,8 +24,8 @@ const Banner = () => {
           </p>
 
           <div className="flex flex-wrap gap-4 pt-4">
-            <button className="btn bg-gradient-to-br from-[#4F39F6] to-[#fa14df] rounded-full text-white">Explore Products</button>
-            <button className="btn bg-[#ff000000] border-purple-900 rounded-full text-purple-800 hover:bg-gradient-to-br from-[#4F39F6] to-[#fa14df] hover:text-white"> <img src="/Play.png" alt="" /> Watch Demo</button>
+            <button className="btn bg-gradient-to-br from-indigo-600 to-violet-600 rounded-full text-white">Explore Products</button>
+            <button className="btn bg-[#ff000000] border-purple-900 rounded-full text-purple-800 hover:bg-gradient-to-br from-indigo-600 to-violet-600 hover:text-white"> <img src="/Play.png" alt="" /> Watch Demo</button>
           </div>
         </div>
 
@@ -41,10 +41,33 @@ const Banner = () => {
         </div>
       </div>
       </div>
-            <div className="text-center space-y-4 mb-8">
-                <h1 className="text-5xl font-bold">Premium Digital Tools</h1>
-                <p>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+        <section class="w-full py-12">
+          <div class="mx-auto bg-gradient-to-r from-indigo-600 to-violet-600 p-8 md:p-12 shadow-xl">
+            
+            <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+              
+              <div class="flex flex-col items-center text-center text-white">
+                <h2 class="text-5xl font-extrabold tracking-tight mb-2">50K+</h2>
+                <p class="text-indigo-100 text-lg font-medium opacity-90 uppercase tracking-wide">Active Users</p>
+              </div>
+
+              <div class="flex flex-col items-center text-center text-white md:border-x border-white/20 px-4">
+                <h2 class="text-5xl font-extrabold tracking-tight mb-2">200+</h2>
+                <p class="text-indigo-100 text-lg font-medium opacity-90 uppercase tracking-wide">Premium Tools</p>
+              </div>
+
+              <div class="flex flex-col items-center text-center text-white">
+                <h2 class="text-5xl font-extrabold tracking-tight mb-2">4.9</h2>
+                <p class="text-indigo-100 text-lg font-medium opacity-90 uppercase tracking-wide">Rating</p>
+              </div>
+
             </div>
+          </div>
+        </section>
+        <div className="text-center space-y-4 mb-8">
+            <h1 className="text-5xl font-bold">Premium Digital Tools</h1>
+            <p>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+        </div>
     </div>
 
     
