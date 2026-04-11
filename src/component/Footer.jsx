@@ -66,7 +66,7 @@ const Footer = () => {
 
 
         <div className="pt-8 border-t border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
-          <p className="text-sm">© 2026 Digitools. All rights reserved.</p>
+          <p className="text-sm"> &copy; 2026 DigiTools. All rights reserved.</p>
           
           <div className="flex gap-8 text-sm">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>

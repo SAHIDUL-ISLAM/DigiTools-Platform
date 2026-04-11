@@ -17,7 +17,7 @@ const Steps = () => {
                         </div>
                         <div className="card-body items-center text-center p-10">
                         <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                            <img src="../src/assets/user.png" alt="" />
+                            <img src="/user.png" alt="" />
                         </div>
                         <h2 className="card-title text-2xl font-bold text-base-content">Create Account</h2>
                         <p className="text-base-content/70">Sign up for free in seconds. No credit card required to get started.</p>
@@ -31,7 +31,7 @@ const Steps = () => {
                         
                         <div className="card-body items-center text-center p-10">
                         <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                            <img src="../src/assets/package.png" alt="" />
+                            <img src="/package.png" alt="" />
                         </div>
                         <h2 className="card-title text-2xl font-bold text-base-content">Choose Products</h2>
                         <p className="text-base-content/70">Browse our catalog and select the tools that fit your needs.</p>
@@ -45,7 +45,7 @@ const Steps = () => {
                         
                         <div className="card-body items-center text-center p-10">
                         <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
-                            <img src="../src/assets/rocket.png" alt="" />
+                            <img src="/rocket.png" alt="" />
                         </div>
                         <h2 className="card-title text-2xl font-bold text-base-content">Start Creating</h2>
                         <p className="text-base-content/70">Download and start using your premium tools immediately.</p>

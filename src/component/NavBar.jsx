@@ -1,9 +1,9 @@
 
 const NavBar = ({ carts }) => {
   return (
-    <div className="navbar max-w-5xl m-auto flex justify-between">
+    <div className="navbar flex flex-col sm:flex-row max-w-5xl m-auto justify-between">
       <div className="navbar">
-        <div className="flex items-center gap-1 font-bold py-5">
+        <div className="items-center gap-1 font-bold py-5">
           <h1 className="bg-gradient-to-br from-indigo-600 to-violet-600 bg-clip-text text-3xl font-bold text-transparent">DigiTools</h1>
         </div>
       </div>
@@ -26,12 +26,11 @@ const NavBar = ({ carts }) => {
           </li>
         </ul>
       </div>
-      <div className="navbar gap-5">
+      <div className="navbar gap-5 ">
         <i className="fa-solid fa-cart-arrow-down">{` ${carts.length}`}</i>
         <a href="#">Login</a>
         <a className="btn bg-gradient-to-br from-indigo-600 to-violet-600 rounded-full text-white">Get in Touch</a>
       </div>
-
     </div>
   );
 };
