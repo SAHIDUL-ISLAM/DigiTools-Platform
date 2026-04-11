@@ -1,16 +1,25 @@
-# React + Vite
+## My Project Name: 
+### DigiTools PlatForm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+DigiTools offers premium digital solutions to streamline your professional workflow with a seamless, user-friendly experience. Join thousands working smarter with transparent pricing and flexible trials at [DigiTools Platform](https://digitools-platform-web.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Description
 
-## React Compiler
+### Frontend Library: 
+React.js
+### Styling & UI: 
+       1. Tailwind CSS
+       2. DaisyUI
+### Icons: 
+FontAwesome
+### Hosting & Deployment: 
+Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 3 Features
+        1. DigiTools is a premium platform designed.
 
-## Expanding the ESLint configuration
+        2. The site features dynamic cart management.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+        3. Professionals working smarter with a seamless user experience.
