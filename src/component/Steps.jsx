@@ -6,49 +6,49 @@ const Steps = () => {
             <div className='bg-[#F9FAFC] py-30'>
                 <div className='max-w-5xl mx-auto'>
                     <div className="text-center space-y-4 mb-8">
-                        <h1 className="text-5xl font-bold">Simple, Transparent Pricing</h1>
-                        <p>Choose the plan that fits your needs. Upgrade or downgrade anytime.</p>
+                        <h1 className="text-5xl font-bold">Get Started in 3 Steps</h1>
+                        <p>Start using premium digital tools in minutes, not hours.</p>
                     </div>
-                    <div class="py-16 px-4">
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                    <div class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow relative overflow-visible">
-                        <div class="absolute top-5 right-5 w-8 h-8 bg-primary text-primary-content rounded-full flex items-center justify-center font-bold text-xs z-10">
+                    <div className="py-16 px-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow relative overflow-visible">
+                        <div className="absolute top-5 right-5 w-8 h-8 bg-primary text-primary-content rounded-full flex items-center justify-center font-bold text-xs z-10">
                         01
                         </div>
-                        <div class="card-body items-center text-center p-10">
-                        <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <div className="card-body items-center text-center p-10">
+                        <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                             <img src="../src/assets/user.png" alt="" />
                         </div>
-                        <h2 class="card-title text-2xl font-bold text-base-content">Create Account</h2>
-                        <p class="text-base-content/70">Sign up for free in seconds. No credit card required to get started.</p>
+                        <h2 className="card-title text-2xl font-bold text-base-content">Create Account</h2>
+                        <p className="text-base-content/70">Sign up for free in seconds. No credit card required to get started.</p>
                         </div>
                     </div>
 
-                    <div class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow relative overflow-visible">
-                        <div class="absolute top-5 right-5 w-8 h-8 bg-primary text-primary-content rounded-full flex items-center justify-center font-bold text-xs z-10">
+                    <div className="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow relative overflow-visible">
+                        <div className="absolute top-5 right-5 w-8 h-8 bg-primary text-primary-content rounded-full flex items-center justify-center font-bold text-xs z-10">
                         02
                         </div>
                         
-                        <div class="card-body items-center text-center p-10">
-                        <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <div className="card-body items-center text-center p-10">
+                        <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                             <img src="../src/assets/package.png" alt="" />
                         </div>
-                        <h2 class="card-title text-2xl font-bold text-base-content">Choose Products</h2>
-                        <p class="text-base-content/70">Browse our catalog and select the tools that fit your needs.</p>
+                        <h2 className="card-title text-2xl font-bold text-base-content">Choose Products</h2>
+                        <p className="text-base-content/70">Browse our catalog and select the tools that fit your needs.</p>
                         </div>
                     </div>
 
-                    <div class="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow relative overflow-visible">
-                        <div class="absolute top-5 right-5 w-8 h-8 bg-primary text-primary-content rounded-full flex items-center justify-center font-bold text-xs z-10">
+                    <div className="card bg-base-100 border border-base-200 shadow-sm hover:shadow-md transition-shadow relative overflow-visible">
+                        <div className="absolute top-5 right-5 w-8 h-8 bg-primary text-primary-content rounded-full flex items-center justify-center font-bold text-xs z-10">
                         03
                         </div>
                         
-                        <div class="card-body items-center text-center p-10">
-                        <div class="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
+                        <div className="card-body items-center text-center p-10">
+                        <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mb-4">
                             <img src="../src/assets/rocket.png" alt="" />
                         </div>
-                        <h2 class="card-title text-2xl font-bold text-base-content">Start Creating</h2>
-                        <p class="text-base-content/70">Download and start using your premium tools immediately.</p>
+                        <h2 className="card-title text-2xl font-bold text-base-content">Start Creating</h2>
+                        <p className="text-base-content/70">Download and start using your premium tools immediately.</p>
                         </div>
                     </div>
 

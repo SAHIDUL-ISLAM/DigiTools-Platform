@@ -3,6 +3,9 @@ import NavBar from "./component/NavBar"
 import Models from "./component/Models"
 import Cart from "./component/Cart"
 import Steps from "./component/Steps"
+import Pricing from "./component/Pricing"
+import WorkFlow from "./component/WorkFlow"
+import Footer from "./component/Footer"
 import { useState } from "react";
 
 const getModels = async () =>{
@@ -31,6 +34,9 @@ const [carts, setCarts]= useState([])
         
      {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}/>}
      <Steps/>
+     <Pricing/>
+     <WorkFlow/>
+     <Footer/>
     </>
   )
 }
