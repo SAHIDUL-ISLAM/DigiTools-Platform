@@ -1,23 +1,23 @@
-## My Project Name: 
+## ✍️ My Project Name: 
 ### DigiTools PlatForm
 
-## Description
+## ✍️ Description
 
 DigiTools offers premium digital solutions to streamline your professional workflow with a seamless, user-friendly experience. Join thousands working smarter with transparent pricing and flexible trials at [DigiTools Platform](https://digitools-platform-web.netlify.app/)
 
-## Description
+## ✍️ Technology
 
-### Frontend Library: 
+### >> Frontend Library: 
 React.js
-### Styling & UI: 
+### >> Styling & UI: 
        1. Tailwind CSS
        2. DaisyUI
-### Icons: 
+### >> Icons: 
 FontAwesome
-### Hosting & Deployment: 
+### >> Hosting & Deployment: 
 Netlify
 
-## 3 Features
+## ✍️ Features
         1. DigiTools is a premium platform designed.
 
         2. The site features dynamic cart management.
